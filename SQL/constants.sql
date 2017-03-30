@@ -31,7 +31,7 @@
 -- A table of fundamental physical constants.
 CREATE TABLE `constants` (
   `id`      INT UNSIGNED NOT NULL,
-  `name`    TEXT NOT NULL,        -- A searchable name for the constant.
+  `name`    VARCHAR(64) NOT NULL, -- A searchable name for the constant.
   `symbol`  VARCHAR(8) NOT NULL,  -- The typical symbol for the constant.
   `value`   DOUBLE NOT NULL,      -- The value of the constant in SI units.
   `units`   TEXT DEFAULT NULL,    -- The SI units of the constant.
