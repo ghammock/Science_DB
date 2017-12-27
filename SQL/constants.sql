@@ -3,7 +3,7 @@
  * are in SI units.
  *
  * Gary Hammock
- * 2017-02-22
+ * 2017-12-27
  *
  * LICENSE (MIT/X11):
  * ------------------
@@ -28,19 +28,21 @@
  * DEALINGS IN THE SOFTWARE.
 */
 
--- A table of fundamental physical constants.
-CREATE TABLE `constants` (
-  `id`      INT UNSIGNED NOT NULL,
-  `name`    VARCHAR(64) NOT NULL, -- A searchable name for the constant.
-  `symbol`  VARCHAR(8) NOT NULL,  -- The typical symbol for the constant.
-  `value`   DOUBLE NOT NULL,      -- The value of the constant in SI units.
-  `units`   TEXT DEFAULT NULL,    -- The SI units of the constant.
-  `comment` TEXT DEFAULT NULL,    -- Any relevant comment used to describe the constant.
-  
-  PRIMARY KEY (`id`)
-);
+/* A table of fundamental physical constants. */
+CREATE TABLE constants (
+    PRIMARY KEY (id),
 
-INSERT INTO `constants` (`id`, `name`, `symbol`, `value`, `units`, `comment`)
+    id      INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    name    VARCHAR(64)  NOT NULL,      -- A searchable name for the constant.
+    symbol  VARCHAR(8)   NOT NULL,      -- The typical symbol for the constant.
+    value   DOUBLE       NOT NULL,      -- The value of the constant in SI units.
+    unit    TEXT         DEFAULT NULL,  -- The SI units of the constant.
+    comment TEXT         DEFAULT NULL,  -- Any relevant comment used to describe the constant.
+
+    INDEX constants_idx (name, symbol)
+) ENGINE=InnoDB
+
+INSERT INTO constants (id, name, symbol, value, units, comment)
 VALUES ( 1, "Archimedes' constant, pi",                  "pi",         3.141592653589793238, NULL,           NULL              ),
        ( 2, "tau circle constant",                       "tau",        6.283185307179586,    NULL,           "tau = 2*pi"      ),
        ( 3, "Euler's number",                            "e",          2.7182818284,         NULL,           NULL              ),
