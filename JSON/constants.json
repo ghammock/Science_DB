@@ -1,0 +1,529 @@
+[
+  {
+    "_id": 1,
+    "name": "Archimedes' constant, pi",
+    "symbol": {
+        "ascii": "pi",
+        "unicode": "\u03c0",
+        "html": "&pi;",
+        "tex": "\\pi"
+    },
+    "value": 3.141592653589793238,
+    "units": {
+      "ascii": "",
+      "html": "",
+      "tex": ""
+    },
+    "comment": {
+      "ascii": "ratio of a circle's circumference to its diameter",
+      "html": "ratio of a circle's circumference to its diameter",
+      "tex": "ratio of a circle's circumference to its diameter"
+    }
+  },
+  {
+    "_id": 2,
+    "name": "tau circle constant",
+    "symbol": {
+        "ascii": "tau",
+        "unicode": "\u03c4",
+        "html": "&tau;",
+        "tex": "\\tau"
+    },
+    "value": 6.283185307179586,
+    "units": {
+      "ascii": "",
+      "html": "",
+      "tex": ""
+    },
+    "comment": {
+      "ascii": "number of radians in one turn, tau = 2*pi",
+      "html": "number of radians in one turn, &tau; = 2&pi;",
+      "tex": "number of radians in one turn, \\tau = 2\\pi"
+    }
+  },
+  {
+    "_id": 3,
+    "name": "Euler's number",
+    "symbol": {
+        "ascii": "e",
+        "unicode": "\u2147",
+        "html": "&exponentiale;",
+        "tex": "e"
+    },
+    "value": 2.7182818284,
+    "units": {
+      "ascii": "",
+      "html": "",
+      "tex": ""
+    },
+    "comment": {
+      "ascii": "base of the natural logarithm, area under the curve y=1/x",
+      "html": "base of the natural logarithm, area under the curve y=1/x",
+      "tex": "base of the natural logarithm, area under the curve y=1/x"
+    }
+  },
+  {
+    "_id": 4,
+    "name": "Golden ratio",
+    "symbol": {
+        "ascii": "phi",
+        "unicode": "\u03c6",
+        "html": "&phi;",
+        "tex": "\\phi"
+    },
+    "value": 1.6180339887498948,
+    "units": {
+      "ascii": "",
+      "html": "",
+      "tex": ""
+    },
+    "comment": {
+      "ascii": "phi = (1 + sqrt(5))/2",
+      "html": "&phi; = (1 + &Sqrt;(5))/2",
+      "tex": "\\phi = \\frac{1 + \\sqrt{5}}{2}"
+    }
+  },
+  {
+    "_id": 5,
+    "name": "speed of light in vacuum",
+    "symbol": {
+        "ascii": "c",
+        "unicode": "c",
+        "html": "c",
+        "tex": "c"
+    },
+    "value": 299792458,
+    "units": {
+      "ascii": "m/s",
+      "html": "m/s",
+      "tex": "\\frac{m}{s}"
+    },
+    "comment": {
+      "ascii": "Defined",
+      "html": "Defined",
+      "tex": "Defined"
+    }
+  },
+  {
+    "_id": 6,
+    "name": "Newtonian constant of gravitation (big-G)",
+    "symbol": {
+        "ascii": "G",
+        "unicode": "G",
+        "html": "G",
+        "tex": "G"
+    },
+    "value": 6.67408e-11,
+    "units": "m^3/(kg-s^2)",
+    "units": {
+      "ascii": "m^3/(kg-s^2)",
+      "html": "m<sup>3</sup>&sdot;kg<sup>-1</sup>&sdot;s<sup>-2</sup>",
+      "tex": "m^{3}kg^{-1}s^{-2}"
+    },
+    "comment": {
+      "ascii": "First measured by Henry Cavendish in 1798.",
+      "html": "First measured by Henry Cavendish in 1798.",
+      "tex": "First measured by Henry Cavendish in 1798."
+    }
+  },
+  {
+    "_id": 7,
+    "name": "Planck constant",
+    "symbol": {
+        "ascii": "h",
+        "unicode": "\u210e",
+        "html": "&planckh;",
+        "tex": "h"
+    },
+    "value": 6.626070040e-34,
+    "units": {
+      "ascii": "J-s",
+      "html": "J&sdot;s",
+      "tex": "J{\\cdot}s"
+    },
+    "comment": {
+      "ascii": "First calculated by Max Planck from experimental data on black-body radiation in 1901.",
+      "html": "First calculated by Max Planck from experimental data on black-body radiation in 1901.",
+      "tex": "First calculated by Max Planck from experimental data on black-body radiation in 1901."
+    }
+  },
+  {
+    "_id": 8,
+    "name": "reduced Plank constant",
+    "symbol": {
+        "ascii": "h_bar",
+        "unicode": "\u210f",
+        "html": "&hbar;",
+        "tex": "\\hbar"
+    },
+    "value": 1.054571800e-34,
+    "units": {
+      "ascii": "J-s",
+      "html": "J&sdot;s",
+      "tex": "J{\\cdot}s"
+    },
+    "comment": {
+      "ascii": "h_bar = h/(2*pi)",
+      "html": "&hbar; = &planckh;/(2&pi;)",
+      "tex": "\\hbar = h/(2\\pi)"
+    }
+  },
+  {
+    "_id": 9,
+    "name": "magnetic constant (vacuum permeability)",
+    "symbol": {
+        "ascii": "mu_0",
+        "unicode": "\u03bc_0",
+        "html": "&mu;<sub>0</sub>",
+        "tex": "\\mu_0"
+    },
+    "value": 1.256637061e-6,
+    "units": {
+      "ascii": "N/A^2",
+      "html": "N&sdot;A<sup>-2</sup>",
+      "tex": "NA^{-2}"
+    },
+    "comment": {
+      "ascii": "Defined as (4*pi)e-7",
+      "html": "Defined as 4&pi;&times;10<sup>-7</sup>",
+      "tex": "Defined as 4\\pi \\times 10^{-7}"
+    }
+  },
+  {
+    "_id": 10,
+    "name": "electric constant (vacuum permittivity)",
+    "symbol": {
+        "ascii": "epsilon_0",
+        "unicode": "\u03b5_0",
+        "html": "&epsilon;<sub>0</sub>",
+        "tex": "\\epsilon_0"
+    },
+    "value": 8.854187817e-12,
+    "units": {
+      "ascii": "F/m",
+      "html": "F/m",
+      "tex": "\\frac{F}{m}"
+    },
+    "comment": {
+      "ascii": "Defined, epsilon_0 = 1 / (mu_0 * c^2)",
+      "html": "Defined, &epsilon;<sub>0</sub> = 1/&mu;<sub>0</sub>c<sup>2</sup>",
+      "tex": "Defined, \\epsilon_0 = \\frac{1}{\\mu_0 c^2}"
+    }
+  },
+  {
+    "_id": 11,
+    "name": "characteristic impedance of vacuum",
+    "symbol": {
+        "ascii": "Z_0",
+        "unicode": "Z_0",
+        "html": "Z<sub>0</sub>",
+        "tex": "Z_0"
+    },
+    "value": 376.730313461,
+    "units": {
+      "ascii": "ohm",
+      "html": "&Omega;",
+      "tex": "\\Omega"
+    },
+    "comment": {
+      "ascii": "Defined, Z_0 = mu_0 * c",
+      "html": "Defined, Z<sub>0</sub> = &mu;<sub>0</sub> c",
+      "tex": "Defined, Z_0 = mu_0 c"
+    }
+  },
+  {
+    "_id": 12,
+    "name": "Coulomb's constant",
+    "symbol": {
+        "ascii": "k_e",
+        "unicode": "k_e",
+        "html": "k<sub>e</sub>",
+        "tex": "k_e"
+    },
+    "value": 8.9875517873681764e9,
+    "units": {
+      "ascii": "(N-m^2)/C^2",
+      "html": "N&sdot;m<sup>2</sup>&sdot;C<sup>-2</sup>",
+      "tex": "N{\\cdot}m^2{\\cdot}C^{-2}"
+    },
+    "comment": {
+      "ascii": "Defined, k_e = 1 / (4 * pi * epsilon_0)",
+      "html": "Defined, k<sub>e</sub> = 1/(4&pi;&epsilon;<sub>0</sub>)",
+      "tex": "Defined, k_e = \\frac{1}/{4 \\pi \\epsilon_0}"
+    }
+  },
+  {
+    "_id": 13,
+    "name": "elementary charge",
+    "symbol": {
+        "ascii": "e_0",
+        "unicode": "e_0",
+        "html": "e<sub>0</sub>",
+        "tex": "e_0"
+    },
+    "value": 1.6021766208e-19,
+    "units": {
+      "ascii": "C",
+      "html": "C",
+      "tex": "C"
+    },
+    "comment": {
+      "ascii": "The magnitude of the electric charge carried by a single electron.",
+      "html": "The magnitude of the electric charge carried by a single electron.",
+      "tex": "The magnitude of the electric charge carried by a single electron."
+    }
+  },
+  {
+    "_id": 14,
+    "name": "mass of electron",
+    "symbol": {
+        "ascii": "m_e",
+        "unicode": "m_e",
+        "html": "m<sub>e</sub>",
+        "tex": "m_e"
+    },
+    "value": 9.10938356e-31,
+    "units": {
+      "ascii": "kg",
+      "html": "kg",
+      "tex": "kg"
+    },
+    "comment": {
+      "ascii": "first measured by J.J. Thompson in 1897 who showed that m_e/m_p > 1000",
+      "html": "first measured by J.J. Thompson in 1897 who showed that m<sub>e</sub>/m<sub>p</sub> &gt; 1000",
+      "tex": "first measured by J.J. Thompson in 1897 who showed that m_e/m_p > 1000"
+    }
+  },
+  {
+    "_id": 15,
+    "name": "mass of proton",
+    "symbol": {
+        "ascii": "m_p",
+        "unicode": "m_p",
+        "html": "m<sub>p</sub>",
+        "tex": "m_p"
+    },
+    "value": 1.672621898e-27,
+    "units": {
+      "ascii": "kg",
+      "html": "kg",
+      "tex": "kg"
+    },
+    "comment": {
+      "ascii": "approximately 938 MeV/c^2",
+      "html": "approximately 938 MeV/c<sup>2</sup>",
+      "tex": "approximately 938 MeV/c^2"
+    }
+  },
+  {
+    "_id": 16,
+    "name": "mass of neutron",
+    "symbol": {
+        "ascii": "m_n",
+        "unicode": "m_n",
+        "html": "m<sub>n</sub>",
+        "tex": "m_n"
+    },
+    "value": 1.674927471e-27,
+    "units": {
+      "ascii": "kg",
+      "html": "kg",
+      "tex": "kg"
+    },
+    "comment": {
+      "ascii": "determined from measuring the momenta of the resulting proton and electron from beta decay",
+      "html": "determined from measuring the momenta of the resulting proton and electron from beta decay",
+      "tex": "determined from measuring the momenta of the resulting proton and electron from beta decay"
+    }
+  },
+  {
+    "_id": 17,
+    "name": "fine structure constant",
+    "symbol": {
+        "ascii": "alpha",
+        "unicode": "\u03b1",
+        "html": "&alpha;",
+        "tex": "\\alpha"
+    },
+    "value": 0.0072973525664,
+    "units": {
+      "ascii": "",
+      "html": "",
+      "tex": ""
+    },
+    "comment": {
+      "ascii": "alpha = (mu_0 * e^2 * c) / (2 * h)",
+      "html": "&alpha; = (&mu;<sub>0</sub>e<sup>2</sup>c)/(2h)",
+      "tex": "\\alpha = \\frac{\\mu_0 e^2 c}{2 h}"
+    }
+  },
+  {
+    "_id": 18,
+    "name": "Rydberg constant",
+    "symbol": {
+        "ascii": "R_infinity",
+        "unicode": "R_\u221e",
+        "html": "R<sub>&infin;</sub>",
+        "tex": "R_{\\infty}"
+    },
+    "value": 10973731.568508,
+    "units": {
+      "ascii": "1/m",
+      "html": "m<sup>-1</sup>",
+      "tex": "m^{-1}"
+    },
+    "comment": {
+      "ascii": "R_infinity = (alpha^2 * m_e * c) / (2 * h)",
+      "html": "R<sub>&infin;</sub> = (&alpha;<sup>2</sup>m<sub>e</sub>c)/(2h)",
+      "tex": "R_{\\infty} = \\frac{\\alpha^2 m_e c}{2 h}"
+    }
+  },
+  {
+    "_id": 19,
+    "name": "Avogadro's number",
+    "symbol": {
+        "ascii": "N_A",
+        "unicode": "N_A",
+        "html": "N<sub>A</sub>",
+        "tex": "N_A"
+    },
+    "value": 6.022140857e23,
+    "units": {
+      "ascii": "1/mol",
+      "html": "mol<sup>-1</sup>",
+      "tex": "mol^{-1}"
+    },
+    "comment": {
+      "ascii": "the proportionality constant relating molar mass of a compound to the mass of a sample",
+      "html": "the proportionality constant relating molar mass of a compound to the mass of a sample",
+      "tex": "the proportionality constant relating molar mass of a compound to the mass of a sample"
+    }
+  },
+  {
+    "_id": 20,
+    "name": "Boltzmann constant",
+    "symbol": {
+        "ascii": "k",
+        "unicode": "k",
+        "html": "k",
+        "tex": "k"
+    },
+    "value": 1.38064852e-23,
+    "units": {
+      "ascii": "J/K",
+      "html": "J/K",
+      "tex": "\\frac{J}{K}"
+    },
+    "comment": {
+      "ascii": "k = R / N_A",
+      "html": "k = R / N<sub>A</sub>",
+      "tex": "k = \\frac{R}{N_A}"
+    }
+  },
+  {
+    "_id": 21,
+    "name": "Faraday constant",
+    "symbol": {
+        "ascii": "F",
+        "unicode": "F",
+        "html": "F",
+        "tex": "F"
+    },
+    "value": 96485.33289,
+    "units": {
+      "ascii": "C/mol",
+      "html": "C/mol",
+      "tex": "\\frac{C}{mol}"
+    },
+    "comment": {
+      "ascii": "F = N_A * e",
+      "html": "F = N<sub>A</sub>e",
+      "tex": "F = N_A e"
+    }
+  },
+  {
+    "_id": 22,
+    "name": "first radiation constant",
+    "symbol": {
+        "ascii": "c_1",
+        "unicode": "c_1",
+        "html": "c<sub>1</sub>",
+        "tex": "c_1"
+    },
+    "value": 3.741771790e-16,
+    "units": {
+      "ascii": "W-m^2",
+      "html": "W&sdot;m<sup>2</sup>",
+      "tex": "W{\\cdot}m^2"
+    },
+    "comment": {
+      "ascii": "c_1 = 2*pi*h*c^2",
+      "html": "c<sub>1</sub> = 2&pi;hc<sup>2</sup>",
+      "tex": "c_1 = 2 \\pi h c^2"
+    }
+  },
+  {
+    "_id": 23,
+    "name": "second radiation constant",
+    "symbol": {
+        "ascii": "c_2",
+        "unicode": "c_2",
+        "html": "c<sub>2</sub>",
+        "tex": "c_2"
+    },
+    "value": 1.43877736e-2,
+    "units": {
+      "ascii": "m-K",
+      "html": "m&sdot;K",
+      "tex": "m{\\cdot}K"
+    },
+    "comment": {
+      "ascii": "c_2 = hc/k",
+      "html": "c<sub>2</sub> = hc/k",
+      "tex": "c_2 = \\frac{hc}{k}"
+    }
+  },
+  {
+    "_id": 24,
+    "name": "gas constant",
+    "symbol": {
+        "ascii": "R",
+        "unicode": "R",
+        "html": "R",
+        "tex": "R"
+    },
+    "value": 8.3144598,
+    "units": {
+      "ascii": "J/(K-mol)",
+      "html": "J/(K&sdot;mol)",
+      "tex": "\\frac{J}{K{\\cdot}mol}"
+    },
+    "comment": {
+      "ascii": "the work energy per thermal degree per mole of substance",
+      "html": "the work energy per thermal degree per mole of substance",
+      "tex": "the work energy per thermal degree per mole of substance"
+    }
+  },
+  {
+    "_id": 25,
+    "name": "Stefan-Boltzmann constant",
+    "symbol": {
+        "ascii": "sigma",
+        "unicode": "\u03c3",
+        "html": "&sigma;",
+        "tex": "\\sigma"
+    },
+    "value": 5.670367e-8,
+    "units": "W/(m^2-K^4)",
+    "units": {
+      "ascii": "W/(m^2-K^4)",
+      "html": "W&sdot;m<sup>-2</sup>&sdot;K<sup>-4</sup>",
+      "tex": "W{\\cdot}m^{-2}{\\cdot}K^{-4}"
+    },
+    "comment": {
+      "ascii": "sigma = (2 * pi^5 * R^4) / (15 * h^3 * c^2 * N_A^4)",
+      "html": "&sigma; = (2 &pi;<sup>5</sup> R<sup>4</sup>) / (15 h<sup>3</sup> c<sup>2</sup> N<sub>A</sub><sup>4</sup>)",
+      "tex": "\\sigma = \\frac{2 \\pi^5 R^4}{15 h^3 c^2 N_A^4}"
+    }
+  }
+]
