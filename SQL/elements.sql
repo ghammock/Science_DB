@@ -30,37 +30,37 @@
 
 /* The periodic table of the elements. */
 CREATE TABLE elements (
-  PRIMARY KEY (atomic_num),
-  
-  atomic_num        INT UNSIGNED NOT NULL,      -- Atomic number (number of protons).
-  name              VARCHAR(64)  NOT NULL,      -- The name of the element.
-  symbol            VARCHAR(2)   NOT NULL,      -- The chemical symbol of the atom.
-  group             TINYINT      DEFAULT NULL,  -- The group/column of the atom.
-  period            TINYINT      DEFAULT NULL,  -- The period/row of the atom.
-  mass              DOUBLE       NOT NULL,      -- The relative atomic mass of the atom.
-  category          VARCHAR(10)  DEFAULT NULL,  -- Major category of the atom in (metal, nonmetal, metalloid).
-  subcategory       VARCHAR(32)  DEFAULT NULL,  -- The subcategory of the atom.
-  atomic_radius     INT UNSIGNED DEFAULT NULL,  -- Emperically measured atomic radius in picometers (+/- 5 pm).
-  vanderwaals_rad   INT UNSIGNED DEFAULT NULL,  -- Van Der Waals radius of the atom in picometers.
-  melt_temp         DOUBLE       DEFAULT NULL,  -- Melting point temperature in kelvin.
-  boil_temp         DOUBLE       DEFAULT NULL,  -- Boiling point temperature in kelvin.
-  density           DOUBLE       DEFAULT NULL,  -- Density in kilograms per cubic meter (kg/m^3).
-  thermal_cond      DOUBLE       DEFAULT NULL,  -- Thermal conductivity in Watts per meter per kelvin (W/[m-K]).
-  specific_heat     DOUBLE       DEFAULT NULL,  -- Specific heat capacity in Joules per kilogram per kelvin (J/[kg-K]).
-  electronegativity DOUBLE       DEFAULT NULL,  -- Electronegativity of the atom on the Pauling scale.
-  critical_temp     DOUBLE       DEFAULT NULL,  -- Critical temperature of the element in kelvin (K).
-  critical_press    DOUBLE       DEFAULT NULL,  -- Critical pressure of the element in pascals (Pa).
-  youngs_modulus    DOUBLE       DEFAULT NULL,  -- Young's modulus (E) of the element at standard temperature and pressure in pascals (Pa).
-  poissons_ratio    DOUBLE       DEFAULT NULL,  -- Poisson's ratio (v) of the element at standard temperature and pressure.
-  bulk_modulus      DOUBLE       DEFAULT NULL,  -- Bulk modulus (K) of the element at standard temperature and pressure in pascals (Pa).
-  shear_modulus     DOUBLE       DEFAULT NULL,  -- Shear modulus (G) of the element at standard temperature and pressure in pascals (Pa).
-  block             CHAR(1)      NOT NULL,      -- The block (s, p, d, f) of the element.
-  electron_conf     VARCHAR(32)  NOT NULL,      -- Electron configuration of the atom in its ground state.
-  discovery_year    VARCHAR(16)  NOT NULL,      -- Year of discovery.
-  radioactive       TINYINT(1)   DEFAULT NULL,  -- A flag to identify radioactive elements, 0=nonradioactive, 1=radioactive.
-  half_life         DOUBLE       DEFAULT NULL,  -- Half-life of the atom in seconds (NULL values imply stable elements).
+    PRIMARY KEY (atomic_num),
 
-  INDEX elements_idx (name)
+    atomic_num        INT UNSIGNED NOT NULL,      -- Atomic number (number of protons).
+    name              VARCHAR(64)  NOT NULL,      -- The name of the element.
+    symbol            VARCHAR(2)   NOT NULL,      -- The chemical symbol of the atom.
+    group             TINYINT      DEFAULT NULL,  -- The group/column of the atom.
+    period            TINYINT      DEFAULT NULL,  -- The period/row of the atom.
+    mass              DOUBLE       NOT NULL,      -- The relative atomic mass of the atom.
+    category          VARCHAR(10)  DEFAULT NULL,  -- Major category of the atom in (metal, nonmetal, metalloid).
+    subcategory       VARCHAR(32)  DEFAULT NULL,  -- The subcategory of the atom.
+    atomic_radius     INT UNSIGNED DEFAULT NULL,  -- Emperically measured atomic radius in picometers (+/- 5 pm).
+    vanderwaals_rad   INT UNSIGNED DEFAULT NULL,  -- Van Der Waals radius of the atom in picometers.
+    melt_temp         DOUBLE       DEFAULT NULL,  -- Melting point temperature in kelvin.
+    boil_temp         DOUBLE       DEFAULT NULL,  -- Boiling point temperature in kelvin.
+    density           DOUBLE       DEFAULT NULL,  -- Density in kilograms per cubic meter (kg/m^3).
+    thermal_cond      DOUBLE       DEFAULT NULL,  -- Thermal conductivity in Watts per meter per kelvin (W/[m-K]).
+    specific_heat     DOUBLE       DEFAULT NULL,  -- Specific heat capacity in Joules per kilogram per kelvin (J/[kg-K]).
+    electronegativity DOUBLE       DEFAULT NULL,  -- Electronegativity of the atom on the Pauling scale.
+    critical_temp     DOUBLE       DEFAULT NULL,  -- Critical temperature of the element in kelvin (K).
+    critical_press    DOUBLE       DEFAULT NULL,  -- Critical pressure of the element in pascals (Pa).
+    youngs_modulus    DOUBLE       DEFAULT NULL,  -- Young's modulus (E) of the element at standard temperature and pressure in pascals (Pa).
+    poissons_ratio    DOUBLE       DEFAULT NULL,  -- Poisson's ratio (v) of the element at standard temperature and pressure.
+    bulk_modulus      DOUBLE       DEFAULT NULL,  -- Bulk modulus (K) of the element at standard temperature and pressure in pascals (Pa).
+    shear_modulus     DOUBLE       DEFAULT NULL,  -- Shear modulus (G) of the element at standard temperature and pressure in pascals (Pa).
+    block             CHAR(1)      NOT NULL,      -- The block (s, p, d, f) of the element.
+    electron_conf     VARCHAR(32)  NOT NULL,      -- Electron configuration of the atom in its ground state.
+    discovery_year    VARCHAR(16)  NOT NULL,      -- Year of discovery.
+    radioactive       TINYINT(1)   DEFAULT NULL,  -- A flag to identify radioactive elements, 0=nonradioactive, 1=radioactive.
+    half_life         DOUBLE       DEFAULT NULL,  -- Half-life of the atom in seconds (NULL values imply stable elements).
+
+    INDEX elements_idx (name)
 ) ENGINE=InnoDB
 
 /* Recommed turning off word-wrapping.*/
